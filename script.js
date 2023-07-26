@@ -16,7 +16,7 @@ function getTimeRemaining(endDate) {
 
 // Function to update the countdown display
 function updateCountdown() {
-  const targetDate = new Date('2023-09-14T21:40:00').getTime();
+  const targetDate = new Date('2023-09-14T18:00:00').getTime();
   const timeRemaining = getTimeRemaining(targetDate);
 
   const countdownElement = document.getElementById('countdown');
