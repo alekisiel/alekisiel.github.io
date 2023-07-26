@@ -27,3 +27,13 @@ img {
   font-weight: bold;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .countdown-container {
+    margin: 20px auto;
+  }
+
+  img {
+    max-width: 300px; /* Adjust the maximum width for mobile devices */
+  }
+}
