@@ -20,7 +20,7 @@ function updateCountdown() {
   const timeRemaining = getTimeRemaining(targetDate);
 
   const countdownElement = document.getElementById('countdown');
-  countdownElement.innerHTML = `${timeRemaining.days} dni, ${timeRemaining.hours} godzin, ${timeRemaining.minutes} minut, ${timeRemaining.seconds} sekund`;
+  countdownElement.innerHTML = `${timeRemaining.days} dni, ${timeRemaining.hours} godz., ${timeRemaining.minutes} min., ${timeRemaining.seconds} sek.`;
 
   if (timeRemaining.totalSeconds <= 0) {
     clearInterval(countdownInterval);
