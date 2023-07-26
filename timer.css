@@ -15,7 +15,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 200px; /* Change this value to your desired width */
   border: 5px solid #333;
   border-radius: 10px;
   margin-top: 20px;
