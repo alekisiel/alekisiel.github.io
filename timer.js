@@ -1,4 +1,3 @@
-// Function to calculate the time remaining until the target date
 function getTimeRemaining(endDate) {
   const totalSeconds = (endDate - Date.now()) / 1000;
   const days = Math.floor(totalSeconds / (3600 * 24));
